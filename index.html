@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cartão de Visita - Seu Nome</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <main class="card" role="main" aria-label="Cartão de visita">
+    <section class="top">
+      <div class="avatar" aria-hidden="true">DI</div>
+      <div>
+        <h1>Deile Ribeiro Issler</h1>
+        <div class="role">Dados & Tecnologia • UNIAENE</div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="info" aria-label="Informações de contato">
+      <div class="row">
+        <div class="label">E-mail</div>
+        <div class="value">seuemail@dominio.com</div>
+      </div>
+      <div class="row">
+        <div class="label">Telefone</div>
+        <div class="value">(00) 90000-0000</div>
+      </div>
+      <div class="row">
+        <div class="label">Site</div>
+        <div class="value">www.seusite.com.br</div>
+      </div>
+    </section>
+
+    <section class="actions" aria-label="Ações">
+      <button class="btn primary" id="btnContato" type="button">Falar comigo</button>
+      <a class="btn" href="#" onclick="return false;">LinkedIn</a>
+      <a class="btn" href="#" onclick="return false;">GitHub</a>
+    </section>
+
+    <footer>© <span id="year"></span> • Cartão de visita</footer>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
